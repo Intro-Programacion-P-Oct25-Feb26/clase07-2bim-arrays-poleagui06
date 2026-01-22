@@ -51,7 +51,7 @@ public class ArrayList01 {
         
         }
         
-        System.out.printf("%.2f", suma);
+        System.out.printf("%.2f\n", suma);
         System.out.println("----------------------------------");
                
     }
