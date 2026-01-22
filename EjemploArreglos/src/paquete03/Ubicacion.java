@@ -17,5 +17,10 @@ public class Ubicacion {
             "Bloque G - Ingeniería", "Bloque H - Rectorado"};
         
         return sedes;
+        
+        /*
+        En este apartado de la función, declaramos un arreglo unidimensional de
+        cadenas al cual le asignamos la ubicación de las cafeterías
+        */
     }
 }

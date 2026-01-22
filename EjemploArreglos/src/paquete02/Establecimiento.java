@@ -17,6 +17,10 @@ public class Establecimiento {
             "Café Central", "Café Jardín", "Café Tec", "Café Rectorado"
         };
         
+        /*
+        En este apartado, dentro de la función dentro de un arreglo unidimensional 
+        de cademos le asignamos los nombres de las cafeterías y las devolvemos
+        */
         return cafeterias;
     
     }

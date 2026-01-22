@@ -18,6 +18,11 @@ public class Informe {
             suma = suma + pedidos[i][dia-1];
         }
         return suma;
+        
+        /*
+        En esta función, hacemos un ciclo para poder obtener la cantidad de pedidos
+        del día miercoles de cada cafetería
+        */
     }
     
     public static String obtenerCafeteriaMasPedidos(int [][] pedidos, String[] cafeterias){
@@ -37,6 +42,12 @@ public class Informe {
         
         return cafeterias[indice];
         
+        /*
+        En esta función, vamos por cada sección del arreglo y vamos comparando la
+        cantidad de pedidos semanales de cada una para poder al final guardar la 
+        que mas pedidos tuvo
+        */
+        
     }
     
     public static int [] obtenerMenorPedidoCafeteria(int [][] pedidos){
@@ -48,6 +59,11 @@ public class Informe {
         
         return pedidosMenores;
     
+        /*
+        En esta función, vamos por cada sección del arreglo y vamos comparando la
+        cantidad de pedidos que tuvo en la semana para sacar la menor cantidad
+        de pedidos que tuvo
+        */
     }
     
     public static int [] obtenerMayorPedidoCafeteria(int [][] pedidos){
@@ -58,6 +74,12 @@ public class Informe {
         }
         
         return pedidosMayores;
+        
+        /*
+        En esta función, vamos por cada sección del arreglo y vamos comparando la
+        cantidad de pedidos que tuvo en la semana para sacar la mayor cantidad
+        de pedidos que tuvo
+        */
     }
     
     

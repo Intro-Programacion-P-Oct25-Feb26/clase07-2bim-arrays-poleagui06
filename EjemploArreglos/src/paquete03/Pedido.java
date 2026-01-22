@@ -24,6 +24,11 @@ public class Pedido {
         };
         
         return pedidosCafeterias;
-                       
+    
+        /*
+        En este apartado en la función, declaramos un arreglo bidimensional de 
+        enteros al cual le asigamos la cantidad de pedidos de 8 filas que son
+        las cafeterías por 7 columnas que son los días de la semana
+        */
     }
 }
